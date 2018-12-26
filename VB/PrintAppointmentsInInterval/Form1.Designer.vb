@@ -31,8 +31,8 @@ Namespace PrintAppointmentsInInterval
 			Me.schedulerControl1 = New DevExpress.XtraScheduler.SchedulerControl()
 			Me.schedulerStorage1 = New DevExpress.XtraScheduler.SchedulerStorage(Me.components)
 			Me.carSchedulingBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-			Me.carsDBDataSet = New PrintAppointmentsInInterval.CarsDBDataSet()
-			Me.carsBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+            Me.carsDBDataSet = New CarsDBDataSet()
+            Me.carsBindingSource = New System.Windows.Forms.BindingSource(Me.components)
 			Me.panelControl1 = New DevExpress.XtraEditors.PanelControl()
 			Me.timeEdit2 = New DevExpress.XtraEditors.TimeEdit()
 			Me.timeEdit1 = New DevExpress.XtraEditors.TimeEdit()
@@ -41,9 +41,9 @@ Namespace PrintAppointmentsInInterval
 			Me.dateEdit2 = New DevExpress.XtraEditors.DateEdit()
 			Me.dateEdit1 = New DevExpress.XtraEditors.DateEdit()
 			Me.labelControl1 = New DevExpress.XtraEditors.LabelControl()
-			Me.carSchedulingTableAdapter = New PrintAppointmentsInInterval.CarsDBDataSetTableAdapters.CarSchedulingTableAdapter()
-			Me.carsTableAdapter = New PrintAppointmentsInInterval.CarsDBDataSetTableAdapters.CarsTableAdapter()
-			Me.labelControl3 = New DevExpress.XtraEditors.LabelControl()
+            Me.carSchedulingTableAdapter = New CarsDBDataSetTableAdapters.CarSchedulingTableAdapter()
+            Me.carsTableAdapter = New CarsDBDataSetTableAdapters.CarsTableAdapter()
+            Me.labelControl3 = New DevExpress.XtraEditors.LabelControl()
 			Me.labelControl4 = New DevExpress.XtraEditors.LabelControl()
 			CType(Me.schedulerControl1, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.schedulerStorage1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -258,10 +258,10 @@ Namespace PrintAppointmentsInInterval
 		Private labelControl2 As DevExpress.XtraEditors.LabelControl
 		Private carsDBDataSet As CarsDBDataSet
 		Private carSchedulingBindingSource As System.Windows.Forms.BindingSource
-		Private carSchedulingTableAdapter As PrintAppointmentsInInterval.CarsDBDataSetTableAdapters.CarSchedulingTableAdapter
-		Private carsBindingSource As System.Windows.Forms.BindingSource
-		Private carsTableAdapter As PrintAppointmentsInInterval.CarsDBDataSetTableAdapters.CarsTableAdapter
-		Private timeEdit2 As DevExpress.XtraEditors.TimeEdit
+        Private carSchedulingTableAdapter As CarsDBDataSetTableAdapters.CarSchedulingTableAdapter
+        Private carsBindingSource As System.Windows.Forms.BindingSource
+        Private carsTableAdapter As CarsDBDataSetTableAdapters.CarsTableAdapter
+        Private timeEdit2 As DevExpress.XtraEditors.TimeEdit
 		Private timeEdit1 As DevExpress.XtraEditors.TimeEdit
 		Private labelControl4 As DevExpress.XtraEditors.LabelControl
 		Private labelControl3 As DevExpress.XtraEditors.LabelControl
